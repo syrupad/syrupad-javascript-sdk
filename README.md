@@ -35,7 +35,7 @@ TadSdk.AdView.init(tad_slot2_conf);
 </div>
 ```
 
-#### parameters
+### parameters
 | 파라메터 | 필수 | 설명 | 값 |
 |:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈(2 - 320x50)|**2**|
@@ -70,7 +70,7 @@ TadSdk.AdView.init(tad_slot6_conf);
 </div>
 ```
 
-#### parameters
+### parameters
 | 파라메터 | 필수 | 설명 | 값 |
 |:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(6 : 320x100)|**6**|
@@ -105,7 +105,7 @@ TadSdk.AdView.init(tad_slot5_conf);
 </div>
 ```
 
-#### parameters
+### parameters
 | 파라메터 | 필수 | 설명 | 값 |
 |:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(5 : 300x250)|**5**|
@@ -184,7 +184,7 @@ var tad_slot3_conf = {
 TadSdk.AdView.init(tad_slot3_conf);
 </script>
 ```
-#### parameters
+### parameters
 | 파라메터 | 필수 | 설명 | 값 |
 |:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(3 : 320x480)|**3**|
