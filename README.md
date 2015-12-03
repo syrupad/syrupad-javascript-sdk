@@ -36,10 +36,9 @@ TadSdk.AdView.init(tad_slot2_conf);
 ```
 
 #### parameters
-
-|파라메터|필수|설명|값|
-|:-----|:--:|:--|:-|
-|slotNo|O|광고 사이즈(2 : 320x50)|**2**|
+| 파라메터 | 필수 | 설명 | 값 |
+|:---------|:----:|:-----|:---|
+|slotNo|O|광고 사이즈(2 - 320x50)|**2**|
 |adType|O|광고 타입|**'inline'**|
 |tagetId|O|광고를 삽입할 DIV의 ID 값|ex) 'main_banner'|
 |clientId|O|매체 등록 시 발급 받은 Client ID 값|ex) 'MXT002001'|
@@ -72,8 +71,8 @@ TadSdk.AdView.init(tad_slot6_conf);
 ```
 
 #### parameters
-|파라메터|필수|설명|값|
-|:-----|:--:|:--|:-|
+| 파라메터 | 필수 | 설명 | 값 |
+|:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(6 : 320x100)|**6**|
 |adType|O|광고 타입|**'inline'**|
 |tagetId|O|광고를 삽입할 DIV의 ID 값|ex) 'main_banner'|
@@ -107,8 +106,8 @@ TadSdk.AdView.init(tad_slot5_conf);
 ```
 
 #### parameters
-|파라메터|필수|설명|값|
-|:-----|:--:|:--|:-|
+| 파라메터 | 필수 | 설명 | 값 |
+|:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(5 : 300x250)|**5**|
 |adType|O|광고 타입|**'inline'**|
 |tagetId|O|광고를 삽입할 DIV의 ID 값|ex) 'main_banner'|
@@ -145,8 +144,8 @@ TadSdk.AdView.init(tad_slot103_conf);
 </script>
 ```
 ### parameters
-|파라메터|필수|설명|값|
-|:-----|:--:|:--|:-|
+| 파라메터 | 필수 | 설명 | 값 |
+|:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(103 : 100x100)|**5**|
 |adType|O|광고 타입|**'floating'**|
 |tagetId|O|광고를 삽입할 DIV의 ID 값 (빈값으로 설정)|**''**|
@@ -186,8 +185,8 @@ TadSdk.AdView.init(tad_slot3_conf);
 </script>
 ```
 #### parameters
-|파라메터|필수|설명|값|
-|:-----|:--:|:--|:-|
+| 파라메터 | 필수 | 설명 | 값 |
+|:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(3 : 320x480)|**3**|
 |adType|O|광고 타입|**'interstitial'**|
 |tagetId|O|광고를 삽입할 DIV의 ID 값(전면 광고는 빈값으로 설정 함)|**''**|
