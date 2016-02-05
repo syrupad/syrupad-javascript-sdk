@@ -178,7 +178,7 @@ var tad_slot3_conf = {
         } else if(errorCode == 1) {
             // Frequency Over. 에러 처리 및 다른 광고 호출
         }
-    }
+    },
     zIndex : 'off'
 };
 TadSdk.AdView.init(tad_slot3_conf);
