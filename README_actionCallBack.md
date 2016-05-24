@@ -138,6 +138,11 @@ var tad_slot103_conf = {
         } else if(errorCode == 1) {
             // Frequency Over. 에러 처리 및 다른 광고 호출
         }
+    },
+    actionCallback : function(code) {
+    	if (code == 1) {
+    		// 닫기 버튼이 눌린 경우 호출
+    	}
     }
 };
 TadSdk.AdView.init(tad_slot103_conf);
@@ -178,11 +183,6 @@ var tad_slot3_conf = {
         } else if(errorCode == 1) {
             // Frequency Over. 에러 처리 및 다른 광고 호출
         }
-    },
-    actionCallback : function(code) {
-    	if (code == 1) {
-    		// 닫기 버튼이 눌린 경우 호출
-    	}
     },
     zIndex : 'off'
 };
