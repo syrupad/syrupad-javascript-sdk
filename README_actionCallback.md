@@ -6,7 +6,6 @@
 <script type="text/javascript">
 var tad_slot103_conf = {
     slotNo : 103,
-    targetId : '',
     clientId : 'MXT103001', // 실 서비스 적용 시 상용에서 발급 받은 Client ID를 사용해 주세요.
     position : {
         'baseline' : 'left-top',
@@ -36,7 +35,6 @@ TadSdk.AdView.init(tad_slot103_conf);
 | 파라메터 | 필수 | 설명 | 값 |
 |:---------|:----:|:-----|:---|
 |slotNo|O|광고 사이즈 정의(103 : 100x100)|**5**|
-|tagetId|O|광고를 삽입할 DIV의 ID 값 (빈값으로 설정)|**''**|
 |clientId|O|매체 등록 시 발급 받은 Client ID 값|ex) 'MXT103001'|
 |newWindow||랜딩 페이지의 새창 여부 (default : false)<br />|ex) false|
 |errorCallback||광고 요청 결과를 처리할 필요가 있는 경우 function 지정|ex) function(errorCode) {...}|
