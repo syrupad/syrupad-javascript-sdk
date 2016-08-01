@@ -1,7 +1,7 @@
 # Syrup Ad Javascript SDK Guide
 
 ## actionCallback
-사용자가 광고를 닫는 시점에 어떠한 처리를 위해콜백을 받아야 하는 경우 아래와 같이 actionCallback을 선언할 수 있습니다.
+사용자가 광고를 닫는 시점에 어떠한 처리를 위해 콜백을 받아야 하는 경우 아래와 같이 actionCallback을 선언할 수 있습니다.
 (floating 과 interstitial 광고에만 사용할 수 있습니다.)
 
 ### parameters
