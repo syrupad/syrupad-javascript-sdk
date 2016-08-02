@@ -144,11 +144,11 @@ TadSdk.AdView.init(tad_slot103_conf);
 |position||광고 노출 위치<br />**'baseline'** : 기준 위치 ('left-top', 'left-bottom', 'right-top', 'right-bottom')<br />**'offsetX'** : 기준 위치에서 X 축 여백 (px)<br />**'offsetY'** : 기준 위치에서 Y 축 여백 (px)|{<br />'baseline' : 'left-top',<br />'offsetX' : 20,<br />'offsetY' : 20<br />}|
 |zIndex||광고 z-index (default : 2000000)<br />**'off'** : z-index 없음<br />**2000000~2999999** : 권장|ex) 2999999|
 
-### Destroy 기능
+### 배너 닫기
 > 현재 노출 중인 배너를 화면 상에서 제거할 수 있습니다.
 
 ```javascript
-<button onclick="TadSdk.AdView.destroy(tad_slot103_conf);">Banner Destroy</button>
+<button onclick="TadSdk.AdView.closeAd(tad_slot103_conf);">Close Banner</button>
 ```
 ## Interstitial (320x480)
 ```javascript
@@ -180,11 +180,11 @@ TadSdk.AdView.init(tad_slot3_conf);
 |errorCallback||광고 요청 결과를 처리할 필요가 있는 경우 function 지정|ex) function(errorCode) {...}|
 |zIndex||광고 z-index (default : 6000000)<br />**'off'** : z-index 없음<br />**6000000 이상** : 권장|ex) 6999999|
 
-### Destroy 기능
+### 배너 닫기
 > 현재 노출 중인 배너를 화면 상에서 제거할 수 있습니다.
 
 ```javascript
-<button onclick="TadSdk.AdView.destroy(tad_slot3_conf);">Banner Destroy</button>
+<button onclick="TadSdk.AdView.closeAd(tad_slot3_conf);">Close Banner</button>
 ```
 
 ## 에러코드 설명
