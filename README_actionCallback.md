@@ -9,6 +9,12 @@
 |:---------|:----:|:-----|:---|
 |actionCallback||광고가 닫힌 시점을 처리할 필요가 있는 경우 function 지정|ex) function(actionCode) {...}|
 
+### actionCode
+| 코드 | 설명 |
+|:-----|:----:|
+|1|사용자가 배너를 닫는 경우|
+|2|개발자가 배너를 닫는 경우|
+
 ### example (Floating)
 ```javascript
 <script type="text/javascript" src="http://adddn.adotsolution.com/contents/sdk/js/tad.min.js" charset="utf-8"></script>
