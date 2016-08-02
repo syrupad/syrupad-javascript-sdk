@@ -148,7 +148,7 @@ TadSdk.AdView.init(tad_slot103_conf);
 > 현재 노출 중인 배너를 화면 상에서 제거할 수 있습니다.
 
 ```javascript
-<button onclick="TadSdk.destroy(tad_slot103_conf);">Banner Destroy</button>
+<button onclick="TadSdk.AdView.destroy(tad_slot103_conf);">Banner Destroy</button>
 ```
 ## Interstitial (320x480)
 ```javascript
@@ -184,7 +184,7 @@ TadSdk.AdView.init(tad_slot3_conf);
 > 현재 노출 중인 배너를 화면 상에서 제거할 수 있습니다.
 
 ```javascript
-<button onclick="TadSdk.destroy(tad_slot3_conf);">Banner Destroy</button>
+<button onclick="TadSdk.AdView.destroy(tad_slot3_conf);">Banner Destroy</button>
 ```
 
 ## 에러코드 설명
