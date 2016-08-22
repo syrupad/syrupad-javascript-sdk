@@ -30,15 +30,17 @@ var tad_slot103_conf = {
     zIndex : 'off',
     test : true, // 실 서비스 적용 시 반드시 제거해 주세요.
     errorCallback : function(errorCode) {
-        if(errorCode == 0) {
+        if (errorCode == 0) {
             // No Ad. 에러 처리 및 다른 광고 호출
-        } else if(errorCode == 1) {
+        } else if (errorCode == 1) {
             // Frequency Over. 에러 처리 및 다른 광고 호출
         }
     },
     actionCallback : function(actionCode) {
     	if (actionCode == 1) {
-    		// 닫기 버튼이 눌린 경우 호출
+    		// 사용자가 배너를 닫는 경우 호출
+    	} else (actionCode == 2) {
+    	    // 개발자가 배너를 닫는 경우 호출
     	}
     }
 };
@@ -55,15 +57,17 @@ var tad_slot3_conf = {
     clientId : 'MXT003001', // 실 서비스 적용 시 상용에서 발급 받은 Client ID를 사용해 주세요.
     test : true, // 실 서비스 적용 시 반드시 제거해 주세요.
     errorCallback : function(errorCode) {
-        if(errorCode == 0) {
+        if (errorCode == 0) {
             // No Ad. 에러 처리 및 다른 광고 호출
-        } else if(errorCode == 1) {
+        } else if (errorCode == 1) {
             // Frequency Over. 에러 처리 및 다른 광고 호출
         }
     },
     actionCallback : function(actionCode) {
     	if (actionCode == 1) {
-    		// 닫기 버튼이 눌린 경우 호출
+    		// 사용자가 배너를 닫는 경우 호출
+    	} else (actionCode == 2) {
+    	    // 개발자가 배너를 닫는 경우 호출
     	}
     }
 };
