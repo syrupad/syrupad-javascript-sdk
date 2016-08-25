@@ -1,4 +1,17 @@
 # Syrup Ad Javascript SDK Guide
+## closeAd
+현재 노출 중인 배너를 화면 상에서 제거할 수 있습니다.
+(floating 과 interstitial 광고에만 사용할 수 있습니다.)
+
+### example(Floating)
+```javascript
+<button onclick="TadSdk.AdView.closeAd(tad_slot103_conf);">Close Banner</button>
+```
+
+### example(Interstitial)
+```javascript
+<button onclick="TadSdk.AdView.closeAd(tad_slot3_conf);">Close Banner</button>
+```
 
 ## actionCallback
 사용자가 광고를 닫는 시점에 어떠한 처리를 위해 콜백을 받아야 하는 경우 아래와 같이 actionCallback을 선언할 수 있습니다.
